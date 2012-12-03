@@ -17,5 +17,5 @@ Now everywhere that you used to provide the name of your XIB file as a string re
 
 ### Example
 
-  ViewController *viewController1 = [[ExampleViewController alloc] init];
-  instantiateXIBWithOwner(@"ExampleViewController_iPhone", viewController1);
+    ViewController *viewController1 = [[ExampleViewController alloc] init];
+    instantiateXIBWithOwner(@"ExampleViewController_iPhone", viewController1);
