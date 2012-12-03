@@ -1,11 +1,11 @@
-#import "XIBLoaderTableViewController.h"
+#import "XLTableViewController.h"
 #import "XIBLoader.h"
 
-@interface XIBLoaderTableViewController ()
+@interface XLTableViewController ()
 
 @end
 
-@implementation XIBLoaderTableViewController
+@implementation XLTableViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
