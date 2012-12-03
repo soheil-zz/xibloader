@@ -15,6 +15,8 @@ Now you will need to add these to your Xcode project. From now on every time you
 
 Now everywhere that you used to provide the name of your XIB file as a string replace it with a call to `instantiateXIBWithOwner(NSString* name, NSObject *owner)`
 
+Where `name` is the name of the XIB file and `owner` is the view controller instance.
+
 ### Example
 
     ViewController *viewController1 = [[ExampleViewController alloc] init];
