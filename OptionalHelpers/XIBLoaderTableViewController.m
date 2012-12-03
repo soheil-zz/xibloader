@@ -1,4 +1,5 @@
 #import "XIBLoaderTableViewController.h"
+#import "XIBLoader.h"
 
 @interface XIBLoaderTableViewController ()
 
