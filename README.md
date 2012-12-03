@@ -21,3 +21,7 @@ Where `name` is the name of the XIB file and `owner` is the view controller inst
 
     ViewController *viewController1 = [[ExampleViewController alloc] init];
     instantiateXIBWithOwner(@"ExampleViewController_iPhone", viewController1);
+
+### Using Helper View Controllers
+
+Optionally, you can extend one of the provided view controllers: `XIBLoaderViewController` or `XIBLoaderTableViewController` to fully automate the loading of the XIB files.
