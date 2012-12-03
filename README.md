@@ -24,4 +24,4 @@ Where `name` is the name of the XIB file and `owner` is the view controller inst
 
 ### Using Helper View Controllers
 
-Optionally, you can extend one of the provided view controllers: `XIBLoaderViewController` or `XIBLoaderTableViewController` to fully automate the loading of the XIB files.
+Optionally, you can extend one of the provided view controllers under `OptionalHelpers` dir: `XIBLoaderViewController` or `XIBLoaderTableViewController` to fully automate the loading of the XIB files.
