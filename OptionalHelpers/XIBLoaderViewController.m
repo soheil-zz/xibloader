@@ -13,6 +13,7 @@
     if (self) {
         // Custom initialization
     }
+    instantiateXIBWithOwner(nibNameOrNil, self);
     return self;
 }
 
